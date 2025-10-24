@@ -31,31 +31,51 @@
 
 ### wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
 
-### bash Anaconda3-2024.10-1-Linux-x86_64.sh
+# STEP
 
-### source /root/anaconda3/etc/profile.d/conda.sh 
-### echo ". /root/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+```
 
+```
+bash Anaconda3-2024.10-1-Linux-x86_64.sh
+```
 
+```
+source /root/anaconda3/etc/profile.d/conda.sh
+```
 
+```
+echo ". /root/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc
+```
 
-### conda create -n ds python=3.10
+```
+conda create -n ds python=3.10
+```
 
-### conda activate ds
+```
+conda activate ds
+```
 
-### pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
+## 更新镜像源
+```
+apt-get update && apt-get upgrade
+```
 
+## 安装npm
+```
+apt install npm
+```
 
-### apt-get update 更新镜像源
+## 使用npm安装pm2
+```
+npm install pm2 -g
+```
 
-
-### apt-get upgrade 必要库的一个升级
-
-
-### apt install npm 安装npm
-
-
-### npm install pm2 -g 使用npm安装pm2
-
-### conda create -n trail3 python=4.10
+```
+conda create -n trail3 python=4.10
+```
