@@ -29,7 +29,11 @@
 ### 准备一台ubuntu服务器 推荐阿里云 香港或者新加坡 轻云服务器
 
 
-### wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+# git resop
+```
+git clone https://github.com/huojichuanqi/ds
+```
+
 
 # STEP
 
