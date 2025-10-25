@@ -5,23 +5,25 @@
 ### 文件名字.env
 
 
-## 单向持仓 模式
+## 在合约交易的地方，首先设置单向持仓::单向持仓模式
 
 
-# 内容
+# .evn内容
 
+```
+DEEPSEEK_API_KEY= 你的deepseek  api密钥
 
-###  DEEPSEEK_API_KEY= 你的deepseek  api密钥
+BINANCE_API_KEY=
 
-###  BINANCE_API_KEY=
+BINANCE_SECRET=
 
-###  BINANCE_SECRET=
+OKX_API_KEY=
 
-###  OKX_API_KEY=
+OKX_SECRET=
 
-###  OKX_SECRET=
+OKX_PASSWORD=
+```
 
-### OKX_PASSWORD=
 
 ###  视频教程：https://www.youtube.com/watch?v=Yv-AMVaWUVg
 
