@@ -59,6 +59,7 @@ echo ". /root/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc
 conda create -n ds python=3.10
 ```
 
+## 在vps上，运行程序：python  **.py的时候，先运行下面的设置环境
 ```
 conda activate ds
 ```
