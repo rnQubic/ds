@@ -11,7 +11,7 @@
 # .evn内容
 
 ```
-DEEPSEEK_API_KEY= 你的deepseek  api密钥
+DEEPSEEK_API_KEY=
 
 BINANCE_API_KEY=
 
