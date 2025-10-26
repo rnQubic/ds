@@ -1,3 +1,5 @@
+# DeepSeek自动化交易
+
 ### 个人喜欢玩黑箱文化，你们不一样，别上头。
 
 ### 配置文件建在策略根目录
@@ -63,10 +65,17 @@ conda create -n ds python=3.10
 ```
 conda activate ds
 ```
-
+然后应该就显示未：
+```
+(ds) root@197v5dzr6m:~/ds#
+```
+安装所需的包
 ```
 pip install -r requirements.txt
 ```
+
+## 到这里基本可以运行和结束，后面的npm管理的，可以略过
+
 
 ## 更新镜像源
 ```
